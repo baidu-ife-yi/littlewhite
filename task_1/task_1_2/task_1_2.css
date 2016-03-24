@@ -1,0 +1,157 @@
+* {
+    font-family: "Microsoft YaHei UI" !important;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(221,221,221);
+}
+
+article,aside{
+    background-color: white;
+    margin: 1em;
+    border: 3px solid rgb(212,212,212);
+    padding: 1em;
+}
+
+
+.pic-item{
+    border: 3px solid rgb(212,212,212);
+    width: 10em;
+    margin: 1em;
+    text-align: center;
+}
+.pic-item img{
+    width: 8em;
+}
+
+.test-table{
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+
+}
+.test-table td{
+
+    border: 2px solid rgb(204,204,204);
+}
+
+.border-left{
+    border-left: 3px solid rgb(204,204,204);
+}
+
+.padding-left{
+    padding-left: 8px;
+}
+
+.form-group {
+    margin: 1.5em 0 1.5em 0;
+}
+
+.form-group .label-1{
+    text-align: right;
+    width: 30%;
+    display: inline-block;
+}
+
+.form-group .textarea-1{
+    vertical-align: top;
+    width: 60%;
+}
+
+.form-group .input-block{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.form-group .button-1{
+    width: 100%;
+    color: white;
+    background-color: #35d;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 0.5em 0 0.5em 0;
+    -webkit-border-radius: 0.5em;
+    border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+}
+
+.test-table th{
+    background-color: rgb(51,51,51);
+    color: white;
+}
+
+.test-table tr:last-child{
+    background-color: rgb(204,204,204);
+}
+
+.remarks{
+    font-size: 0.8em;
+    color: gray;
+}
+
+article h2{
+    font-size: 1.3em;
+    color: gray;
+}
+article address{
+    font-size: 0.8em;
+    color: gray;
+}
+
+article ul.clear-list-item-style{
+    list-style: none;
+}
+
+article p{
+    text-indent: 2em;
+}
+
+article p{
+    line-height: 1.5em;
+}
+article img{
+    max-height: 15em;
+}
+
+
+.nav  {
+    background-color: rgb(51,51,51);
+    overflow : hidden;
+    width: 100%;
+    padding: 0 5px 0 5px;
+}
+.nav img{
+    max-height: 3em;
+    margin-left: 1em;
+    vertical-align: middle;
+    margin: 0.5em 0 0.5em 1em;
+
+}
+.nav ul{
+    float: right;
+    height: 4em;
+    margin: 0 1em 0 0.5em;
+}
+.nav ul li {
+    float: left;
+    list-style-position: inside;
+    line-height: 4em;
+    padding: 0 6px 0 6px;
+}
+.nav ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    height: 6em;
+    line-height: 6em;
+    background-color: black;
+}
