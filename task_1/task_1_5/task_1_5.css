@@ -4,11 +4,14 @@
 
 }
 
+.left-content {
+    margin-right: 27em;
+}
+
 body {
     margin: 0;
     padding: 0;
     background-color: rgb(221,221,221);
-    width: 100%;
 }
 
 article,aside{
@@ -18,8 +21,14 @@ article,aside{
     padding: 1em;
 }
 
+.pic-container:after{
+    content: "";
+    clear: both;
+    display: block;
+}
 
 .pic-item{
+    float: left;
     border: 3px solid rgb(212,212,212);
     width: 10em;
     margin: 1em;
@@ -36,7 +45,6 @@ article,aside{
 
 }
 .test-table td{
-
     border: 2px solid rgb(204,204,204);
 }
 
@@ -54,13 +62,13 @@ article,aside{
 
 .form-group .label-1{
     text-align: right;
-    width: 30%;
+    width: 40%;
     display: inline-block;
 }
 
 .form-group .textarea-1{
     vertical-align: top;
-    width: 60%;
+    width: 50%;
 }
 
 .form-group .input-block{
@@ -150,7 +158,13 @@ article img{
     text-decoration: none;
 }
 
+.aside{
+    width: 23em;
+    float: right;
+}
+
 footer {
+    clear: both;
     text-align: center;
     color: white;
     height: 6em;
@@ -158,3 +172,4 @@ footer {
     background-color: black;
     width: 100%;
 }
+

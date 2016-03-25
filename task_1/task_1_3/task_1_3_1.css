@@ -12,7 +12,7 @@
     width: 200px;
     background-color: white;
     border: 2px solid #999;
-    margin-right: -100%;
+    margin-right: -204px;
 }
 
 .right {
@@ -21,7 +21,7 @@
     background-color: white;
     border: 2px solid #999;
     float: right;
-    margin-left: -100%;
+    margin-left: -124px;
 }
 
 .right img,.right_1 img{
