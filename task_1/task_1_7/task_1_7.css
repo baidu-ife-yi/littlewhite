@@ -15,6 +15,165 @@
     clear: both;
 }
 
+.section-5{
+    text-align: center;
+    padding: 5em 0;
+    background-color: #EDEAEA;
+}
+
+.section-5 .cell{
+    display: inline-block;
+    margin: 0 3%;
+}
+
+
+
+.section-5 .cell img{
+    height: 24em;
+}
+
+.section-5 .cell .p-1{
+    font-family: 微软雅黑;
+    line-height: 2.5em;
+}
+
+.section-5 .cell .p-2{
+    font-family: 微软雅黑;
+    font-size: 0.8em;
+    color: gray;
+}
+
+.section-5 .s-cell .p-1{
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+.section-5 .s-cell .p-2{
+    margin: 0.8em 0;
+}
+
+.section-4{
+    text-align: center;
+    background: url("images/pic02.jpg") no-repeat;
+    background-size: cover;
+    height: 20em;
+    box-sizing: border-box;
+    padding: 4.5em 0;
+}
+
+.section-4 .div-2{
+    margin-top: 4em;
+}
+
+.section-4 .div-2 .select{
+    position: relative;
+    cursor: pointer;
+    width: 15%;
+    line-height: 2em;
+    font-size: 1em;
+    font-family: 微软雅黑;
+    display: inline-block;
+    text-align: left;
+    background-color: white;
+    color: darkgray;
+    margin: 0 3%;
+    background-image: url("images/icon-7.png");
+    background-position: 95% 50%;
+    background-repeat: no-repeat;
+    background-size: auto 60%;
+}
+
+.section-4 .div-2 .search{
+    background-color: rgb(190,79,72);
+    color: white;
+    background-image: none;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 2px;
+}
+
+
+.section-4 .div-2 .select span{
+    padding-left: 1em;
+}
+
+.section-4 .div-2 .select ul{
+    position: absolute;
+    width: 100%;
+    left: -9999em;
+    top: 100%;
+    background-color: white;
+    font-size: 1.1em;
+    line-height: 2em;
+    list-style: none;
+}
+
+.section-4 .div-2 .select .border-container{
+    border-top: 2px solid transparent;
+}
+
+.section-4 .div-2 .select:hover .border-container{
+    border: 2px solid rgb(190,79,72);
+    border-bottom: 0;
+    box-sizing: border-box;
+}
+
+.section-4 .div-2 .select:hover ul{
+    left: auto;
+    border: 2px solid rgb(190,79,72);
+    border-top: 0;
+    box-sizing: border-box;
+}
+
+
+.section-4 .div-2 .select ul li{
+    padding-left: 1em;
+    background-color: rgb(227,227,229);
+}
+
+.section-4 .div-2 .select:hover ul li:hover{
+    list-style:disc inside url(images/icon-8.png) ;
+    background-color: rgb(190,79,72);
+    color: white;
+}
+
+
+
+.section-4 .div-1{
+    color: white;
+    font-family: 微软雅黑;
+}
+
+.section-4 .div-1 span{
+    display: inline-block;
+    line-height: 0;
+    border-top: 2px solid white;
+    width: 2em;
+}
+
+.section-4 .div-1 .p-1{
+    font-size: 1.3em;
+    line-height: 1em;
+}
+
+.section-4 .div-1 .p-2{
+    font-size: 1em;
+    margin-top: 1.5em;
+}
+
+.section-3{
+    width: 100%;
+    background-color: rgb(237,237,237);
+    text-align: center;
+    padding: 5em 0;
+}
+
+.section-3 p{
+    margin-top: 1em;
+    font-size: 3em;
+    font-family: 微软雅黑;
+}
+
 .section-2{
     width: 100%;
     background-color: white;
@@ -72,6 +231,7 @@
     font-size: 3.5em;
     text-transform: capitalize;
     color: white;
+    font-family: Arial;
 }
 
 .chart-button-contain .p-2{
